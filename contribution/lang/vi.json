@@ -4,15 +4,15 @@
 			"vars": [
 				"playerName"
 			],
-			"trans": "Căn hộ của ${playerName}",
+			"trans": "Nhà của ${playerName}",
 			"eng": "${playerName}'s Apartment"
 		},
 		"terminateLease": {
-			"trans": "Hủy hợp đồng thuê",
+			"trans": "Hủy thuê nhà",
 			"eng": "Terminate Lease"
 		},
 		"viewPets": {
-			"trans": "Xem Thú cưng",
+			"trans": "Xem thú cưng",
 			"eng": "View Pets"
 		},
 		"address": {
@@ -26,11 +26,11 @@
 				"vars": [
 					"amount"
 				],
-				"trans": "Bạn đã thanh toán tiền thuê căn hộ của mình là ${amount}",
+				"trans": "Đã trả tiền thuê nhà : ${amount}",
 				"eng": "You have paid your apartment rent of ${amount}"
 			},
 			"unpaidMail": {
-				"trans": "Bạn đã không thanh toán tiền thuê căn hộ, căn hộ của bạn đã bị hủy bỏ",
+				"trans": "Tiền thuê nhà chưa được trả, bạn đã bị đuổi khỏi căn hộ.",
 				"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
 			}
 		}
@@ -38,11 +38,11 @@
 	"purchaseApartmentUI": {
 		"confirmModal": {
 			"title": {
-				"trans": "Thuê căn hộ",
+				"trans": "Thuê nhà",
 				"eng": "Rent Apartment"
 			},
 			"description": {
-				"trans": "Bạn chắc chắn muốn thuê căn hộ này chứ?",
+				"trans": "Bạn chắc chắn muốn thuê căn nhà này chứ?",
 				"eng": "Are you sure you want to rent this apartment?"
 			}
 		},
@@ -98,7 +98,7 @@
 			"vars": [
 				"percent"
 			],
-			"trans": "Việc hiệu chuẩn (${percent}%) sẽ được triển khai trong vài phút",
+			"trans": "Việc đo đạc (${percent}%) sẽ được triển khai trong vài phút",
 			"eng": "Calibration ${percent}% has been deployed"
 		}
 	},
@@ -106,11 +106,11 @@
 		"bulkCraft": {
 			"tutorial": {
 				"printSell": {
-					"trans": "Nhấn vào đây để chọn các mặt hàng bạn muốn in và bán",
+					"trans": "Nhấn vào để chọn vật phâm bạn muốn in và bán",
 					"eng": "Click here to select the items you want to print and sell"
 				},
 				"recycle": {
-					"trans": "Nhấn vào đây để chọn các vật phẩm bạn muốn tái chế",
+					"trans": "Nhấn vào để chọn vật phẩm bạn muốn tái chế",
 					"eng": "Click here to select the items you want to recycle"
 				}
 			},
@@ -124,11 +124,11 @@
 				"vars": [
 					"duration"
 				],
-				"trans": "Nhiệm vụ này sẽ mất ${duration}",
+				"trans": "Nhiệm vụ sẽ mất ${duration}",
 				"eng": "This task will take ${duration}"
 			},
 			"durationTooLong": {
-				"trans": "Quá nhiều mục được chọn",
+				"trans": "Quá nhiều thứ được chọn",
 				"eng": "Too many items selected"
 			}
 		},
@@ -146,7 +146,7 @@
 				"eng": "Enter the large size 4 digit code from the image, not the small size ones"
 			},
 			"story": {
-				"trans": "Bạn tìm thấy một chiếc két sắt cũ bị khóa, có vẻ như là một chiếc hộp có chữ viết trên đó.",
+				"trans": "Bạn tìm được một chiếc két sắt cũ bị khóa, có vẻ là một chiếc hộp có chữ viết trên đó.",
 				"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
 			},
 			"title": {
@@ -174,12 +174,12 @@
 			},
 			"editMotto": {
 				"button": {
-					"trans": "Sửa Phương Châm",
+					"trans": "Sửa khẩu hiệu/ phương châm của Tập Đoàn",
 					"eng": "Edit Gang Motto"
 				},
 				"modal": {
 					"title": {
-						"trans": "Nhập phương châm của Tập Đoàn",
+						"trans": "Nhập khẩu hiệu/ phương châm của Tập Đoàn",
 						"eng": "Please enter your gang motto"
 					}
 				}
@@ -218,7 +218,7 @@
 				"eng": "Next upkeep Date: ${nextUpkeepDate}"
 			},
 			"insufficientError": {
-				"trans": "Tài nguyên sắp cạn",
+				"trans": "Tài nguyên sắp hết",
 				"eng": "resource critical"
 			},
 			"insufficientFound": {
@@ -242,7 +242,7 @@
 		},
 		"communityContentBox": {
 			"title": {
-				"trans": "Nội dung cộng đồng",
+				"trans": "Cộng đồng",
 				"eng": "Community Content"
 			},
 			"description": {
@@ -264,34 +264,34 @@
 				},
 				"printingTooLow": {
 					"title": {
-						"trans": "Cải thiện cấp độ in",
+						"trans": "Tăng cấp độ in",
 						"eng": "Improve Printing Rank"
 					},
 					"description": {
-						"trans": "Cấp độ in xác định mức độ của thiết bị bạn in. Nhận EXP in bằng cách in và bán trên thị trường Đen",
+						"trans": "Cấp độ in xác định mức độ của thiết bị bạn in. Nhận EXP bằng cách in và bán trên Chợ Đen.",
 						"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
 					}
 				},
 				"gearTooWeak": {
 					"title": {
-						"trans": "Nhận thiết bị thậm chí tốt hơn!",
+						"trans": "Nhận thiết bị tốt hơn!",
 						"eng": "Get even better equipments!"
 					},
 					"description": {
-						"trans": "Thiết bị hiện tại của bạn dường như chưa tương xứng với cấp độ của bạn, hãy thử in những thiết bị mạnh hơn để thay thế chúng",
+						"trans": "Trang bị hiện tại của bạn chưa tương xứng với cấp độ hiện tại, hãy dùng những thiết bị mạnh hơn.",
 						"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
 					}
 				},
 				"noUpgrade": {
 					"title": {
-						"trans": "Nâng cấp thiết bị của bạn!",
+						"trans": "Nâng cấp trang bị của bạn!",
 						"eng": "Upgrade your equipment!"
 					},
 					"description": {
 						"vars": [
 							"itemName"
 						],
-						"trans": "Bạn có thể nâng cấp thiết bị của mình bằng cách sử dụng ${itemName}",
+						"trans": "Bạn có thể nâng cấp trang bị của mình bằng cách sử dụng ${itemName}",
 						"eng": "You can upgrade your equipment by using the ${itemName}"
 					}
 				},
@@ -301,7 +301,7 @@
 						"eng": "Use AI Core"
 					},
 					"description": {
-						"trans": "Có vẻ như bạn có một số lõi AI, sử dụng chúng để thực hiện việc tự động AFK ở khu vực có cấp độ thích hợp.",
+						"trans": "Có vẻ như bạn có vài lõi AI, sử dụng chúng để thực hiện việc tự động AFK ở khu vực có cấp độ phù hợp.",
 						"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
 					}
 				},
@@ -311,13 +311,13 @@
 						"eng": "Acquire AI Cores"
 					},
 					"description": {
-						"trans": "Bạn có thể nhận được lõi AI bằng cách: \n         - Lượm nhặt ở nhiều địa điểm khác nhau \n         - Chế tạo từ bộ xử lý Hash và phế liệu công nghệ \n         - Nhặt được từ kẻ thù ở tất cả các địa điểm",
+						"trans": "Lấy lõi AI bằng cách: \n         - Nhặt ở nhiều địa điểm khác nhau \n         - Chế tạo từ Hash Processors và phế liệu công nghệ \n         - Nhặt được từ kẻ thù ở tất cả các địa điểm",
 						"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
 					}
 				},
 				"common": {
 					"clickToOpen": {
-						"trans": "Nhấn vào đây để mở",
+						"trans": "Nhấn vào để mở",
 						"eng": "click to open"
 					}
 				}
@@ -343,7 +343,7 @@
 						"eng": "Decryption successful"
 					},
 					"description": {
-						"trans": "Chế biến",
+						"trans": "Đang xử lí",
 						"eng": "processing"
 					}
 				},
@@ -385,7 +385,7 @@
 		},
 		"rewardActionConfirmModal": {
 			"title": {
-				"trans": "Kéo tất cả biểu tượng quy trình vào trong hộp hoàn toàn để bắt đầu nhiệm vụ",
+				"trans": "Kéo các icon vào trong hộp để bắt đầu nhiệm vụ",
 				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
@@ -437,16 +437,16 @@
 				"vars": [
 					"upgradeToSlot"
 				],
-				"trans": "Tăng số lượng vật phẩm tối đa bạn có thể lưu trữ trong kho lên ${upgradeToSlot}",
+				"trans": "Tăng số lượng vật phẩm bạn có thể cất trong kho lên ${upgradeToSlot}",
 				"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
 			},
 			"itemLocked": {
-				"trans": "Mục này bị khóa và không thể lưu trữ.",
+				"trans": "Mục này bị khóa và không thể cất.",
 				"eng": "This item is locked and can not be stored."
 			},
 			"modal": {
 				"selectDepositItem": {
-					"trans": "Bạn muốn đặt bao nhiêu trong kho?",
+					"trans": "Bạn muốn cất bao nhiêu trong kho ?",
 					"eng": "How many would you like to put in the vault?"
 				},
 				"selectWithdrawItem": {
@@ -473,7 +473,7 @@
 				}
 			},
 			"noBalance": {
-				"trans": "Bạn không thể rút tiền khi không đủ số dư.",
+				"trans": "Không đủ số dư.",
 				"eng": "You can't withdraw when you have no balance."
 			}
 		},
@@ -550,7 +550,7 @@
 					"vars": [
 						"vpnName"
 					],
-					"trans": "Khai thác trò chuyện có hiệu lực, tất cả tin nhắn được gửi sẽ được thay đổi. Sử dụng ${vpnName} để bảo mật kết nối của bạn!",
+					"trans": "Đang có vấn đề với chat, tin nhắn được gửi sẽ thay đổi. Sử dụng ${vpnName} để bảo mật kết nối của bạn!",
 					"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
 				},
 				"activateVPN": {
@@ -567,14 +567,14 @@
 					"eng": "${name} is about to run out in a few seconds!"
 				},
 				"refresh": {
-					"trans": "Làm mới ngay bây giờ",
+					"trans": "Làm mới",
 					"eng": "Refresh Now"
 				}
 			}
 		},
 		"chatPreview": {
 			"notConnected": {
-				"trans": "Hệ thống trò chuyện không được kết nối",
+				"trans": "Hệ thống chat không được kết nối",
 				"eng": "chat system not connected"
 			}
 		},
@@ -585,20 +585,20 @@
 						"playerName",
 						"time"
 					],
-					"trans": "Được đăng bởi ${playerName} ${time} trước đây",
+					"trans": "Được đăng bởi ${playerName} ${time} trước",
 					"eng": "Posted by ${playerName} ${time} ago"
 				}
 			},
 			"createClan": {
 				"title": {
-					"trans": "Bạn không phải là thành viên của bất kỳ tập đoàn nào",
+					"trans": "Bạn không là thành viên của tập đoàn nào.",
 					"eng": "You are not a member of any gang"
 				},
 				"subtitle": {
 					"vars": [
 						"cost"
 					],
-					"trans": "Trò chuyện tập đoàn sẽ được kích hoạt khi bạn thuộc về một tập đoàn.\\nTham gia một tập đoàn bằng cách kết bạn khi trò chuyện hoặc tạo một tập đoàn mới của riêng bạn và mời bạn bè của bạn vào!",
+					"trans": "Chat tập đoàn sẽ được mở khi bạn vào một tập đoàn.\\nTham gia một tập đoàn bằng cách kết bạn khi chat hoặc tạo một tập đoàn mới của riêng bạn và mời bạn bè của bạn tham gia!",
 					"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
 				},
 				"createButton": {
@@ -610,14 +610,14 @@
 						"cost",
 						"currency"
 					],
-					"trans": "Tạo một tập đoàn tốn ${cost} ${currency}",
+					"trans": "Tạo tập đoàn tốn ${cost} ${currency}",
 					"eng": "Create a gang for ${cost} ${currency}"
 				}
 			}
 		},
 		"deathScreen": {
 			"topTitleLeft": {
-				"trans": "Chấn thương nghiêm trọng",
+				"trans": "Chấn Thương Rất Nghiêm Trọng",
 				"eng": "fatal injury"
 			},
 			"topTitleRight": {
@@ -651,15 +651,15 @@
 				}
 			},
 			"lowPrintLevelTip2": {
-				"trans": "Tăng cấp dộ in của bạn để tạo ra vũ khí mạnh hơn bằng cách in thêm thiết bị bằng [Bản vẽ]",
+				"trans": "Tăng cấp độ in để tạo ra vũ khí mạnh hơn bằng cách in thêm trang bị bằng [Bản vẽ]",
 				"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
 			},
 			"lowPrintLevelTip3": {
-				"trans": "Hoặc bằng cách in tự động và bán [Bản vẽ] của bạn trong thị trường chợ đen",
+				"trans": "Hoặc bằng cách in tự động và bán [Bản vẽ] của bạn trong Chợ Đen",
 				"eng": "Or by auto print and selling your caches in the Black Market"
 			},
 			"quickSlots": {
-				"trans": "Khe nhanh",
+				"trans": "Ô sử dụng nhanh",
 				"eng": "Quick Slots"
 			},
 			"equipped": {
@@ -670,24 +670,24 @@
 		"quickSlot": {
 			"unbindModal": {
 				"title": {
-					"trans": "Bỏ liên kết khe nhanh?",
+					"trans": "Bỏ liên kết ô sử dụng nhanh?",
 					"eng": "Unbind quick slot?"
 				}
 			},
 			"bindModal": {
 				"title": {
-					"trans": "Chọn một vật phẩm có thể sử dụng để liên kết với một khe nhanh",
+					"trans": "Chọn một vật phẩm có thể sử dụng để đưa vào ô sử dụng nhanh",
 					"eng": "Select a usable item to bind to a quick slot"
 				}
 			}
 		},
 		"fab": {
 			"apps": {
-				"trans": "Tất Cả Ứng Dụng",
+				"trans": "Tất Cả Apps",
 				"eng": "All Apps"
 			},
 			"dungeonList": {
-				"trans": "Danh Sách Ngục tối",
+				"trans": "Danh Sách Dungeon",
 				"eng": "Dungeon List"
 			},
 			"links": {
@@ -695,11 +695,11 @@
 				"eng": "links"
 			},
 			"premiumShop": {
-				"trans": "Cửa Hàng Cao Cấp",
+				"trans": "Cửa Hàng Premium",
 				"eng": "Premium Shop"
 			},
 			"friendList": {
-				"trans": "Danh Sách Bạn",
+				"trans": "Bạn Bè",
 				"eng": "Friend List"
 			},
 			"leaderBoard": {
@@ -732,7 +732,7 @@
 					"eng": "Skip ${minutes} minutes"
 				},
 				"title2": {
-					"trans": "Kết thúc ngay bây giờ",
+					"trans": "Kết thúc ngay lập tức",
 					"eng": "Finish Now"
 				},
 				"description": {
@@ -745,7 +745,7 @@
 					"vars": [
 						"itemSkipMinutes"
 					],
-					"trans": "Miễn phí tăng tốc (${itemSkipMinutes} phút)",
+					"trans": "Miễn phí tăng tốc trong (${itemSkipMinutes} phút)",
 					"eng": "Free time skip (${itemSkipMinutes} Min)"
 				},
 				"description": {
@@ -753,7 +753,7 @@
 						"timeSkipItemName",
 						"itemSkipMinutes"
 					],
-					"trans": "Sử dụng một ${timeSkipItemName} của bạn để bỏ qua ${itemSkipMinutes} phút nhiệm vụ treo máy",
+					"trans": "Sử dụng một ${timeSkipItemName} của bạn để bỏ qua ${itemSkipMinutes} phút treo máy",
 					"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
 				}
 			},
@@ -763,7 +763,7 @@
 					"eng": "Confirm use skip?"
 				},
 				"subtitle": {
-					"trans": "Tăng tốc thế giới sẽ bỏ qua thời gian chờ đợi cho tất cả người chơi thực hiện nhiệm vụ AFK",
+					"trans": "Tăng tốc thế giới sẽ bỏ qua thời gian chờ đợi cho tất cả người chơi đang AFK",
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task"
 				}
 			},
@@ -776,18 +776,18 @@
 					"vars": [
 						"skippingPlayerCount"
 					],
-					"trans": "Tăng tốc ${skippingPlayerCount} người dùng...",
+					"trans": "Tăng tốc cho ${skippingPlayerCount} người chơi...",
 					"eng": "Accelerating ${skippingPlayerCount} users.."
 				}
 			},
 			"description": {
-				"trans": "Tăng tốc thế giới cho phép bạn bỏ qua thời gian chờ AFK và hoàn thành ngay lập tức.\n       Hiệu ứng này sẽ được áp dụng cho tất cả người chơi thực hiện nhiệm vụ AFK",
+				"trans": "Tăng tốc thế giới cho phép bạn bỏ qua thời gian chờ AFK và hoàn thành ngay lập tức.\n       Hiệu ứng này sẽ được áp dụng cho tất cả người chơi AFK",
 				"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
 			}
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"trans": "Nhấn giữ để chọn nhiều vật phẩm",
+				"trans": "Giữ để chọn nhiều vật phẩm",
 				"eng": "Long press to multi-select"
 			}
 		},
@@ -797,7 +797,7 @@
 				"eng": "items"
 			},
 			"secretKeys": {
-				"trans": "Chìa khóa",
+				"trans": "Chìa khóa Bí Mật",
 				"eng": "secret keys"
 			},
 			"autoScrap": {
@@ -811,7 +811,7 @@
 				"eng": "Inventory"
 			},
 			"equipped": {
-				"trans": "Đang mặc",
+				"trans": "Đang trang bị",
 				"eng": "Equipped"
 			},
 			"itemInbox": {
@@ -849,27 +849,27 @@
 				}
 			},
 			"areaEffect": {
-				"trans": "[AOE] Hiệu ứng diện rộng, hiệu ứng của vật phẩm này sẽ áp dụng trên cả đồng minh cùng chiến đấu.",
+				"trans": "[AOE] Hiệu ứng AoE diện rộng, hiệu ứng sẽ áp dụng trên cả đồng minh cùng chiến đấu.",
 				"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
 			},
 			"lockModal": {
 				"unlock": {
 					"title": {
-						"trans": "Mở khóa mặt hàng?",
+						"trans": "Mở khóa vật phẩm?",
 						"eng": "Unlock item?"
 					},
 					"description": {
-						"trans": "Khi mặt hàng được mở khóa, bạn có thể giao dịch hoặc loại bỏ nó.",
+						"trans": "Khi vật phẩm được mở khóa, bạn có thể giao dịch hoặc loại bỏ nó.",
 						"eng": "When item is unlocked, you can trade or scrap it."
 					}
 				},
 				"lock": {
 					"title": {
-						"trans": "Khóa lại mục?",
+						"trans": "Khóa vật phẩm?",
 						"eng": "Lock item?"
 					},
 					"description": {
-						"trans": "Bạn có thể ngăn cản việc vô tình ctais chế hoặc bán mặt hàng này bằng cách khóa nó lại.",
+						"trans": "Bạn có thể ngăn cản việc tái chế hoặc bán vật phẩm này bằng cách khóa nó lại.",
 						"eng": "You can prevent accidentally scraping or selling this item by locking it."
 					}
 				}
@@ -883,14 +883,14 @@
 				"eng": "Unlocked"
 			},
 			"upgradeModuleTitleHeader": {
-				"trans": "Nâng cấp khe",
+				"trans": "Nâng cấp ô",
 				"eng": "Upgrades Slots"
 			},
 			"upgradeModuleTitle": {
 				"vars": [
 					"index"
 				],
-				"trans": "Nâng cấp ${index}",
+				"trans": "Nâng cấp ô${index}",
 				"eng": "upgrade slot ${index}"
 			},
 			"equip": {
@@ -898,7 +898,7 @@
 				"eng": "Equip"
 			},
 			"cantEquip": {
-				"trans": "Cấp độ của bạn quá thấp để trang bị vật phẩm này",
+				"trans": "Cấp độ hiện tại quá thấp để trang bị vật phẩm này",
 				"eng": "Your level is too low for this item"
 			},
 			"unequip": {
@@ -913,7 +913,7 @@
 				"vars": [
 					"currentAction"
 				],
-				"trans": "Bạn không thể in thiết bị trong khi ${currentAction}",
+				"trans": "Bạn không thể in trang bị trong khi ${currentAction}",
 				"eng": "You can't print equipment while ${currentAction}"
 			},
 			"printCache": {
@@ -921,15 +921,15 @@
 				"eng": "Print Cache"
 			},
 			"printCacheDescription": {
-				"trans": "Biến bản vẽ này thành một vật phẩm vũ khí hoặc thiết bị mà bạn có thể sử dụng.",
+				"trans": "Biến bản vẽ này thành một vũ khí hoặc trang bị mà bạn có thể sử dụng.",
 				"eng": "Turn this cache into a weapon or equipment item that you can use."
 			},
 			"openContainer": {
-				"trans": "Mở khóa container",
+				"trans": "Mở khóa Container",
 				"eng": "Unlock Container"
 			},
 			"cantOpenContainerNotIdleV2": {
-				"trans": "Bạn không thể mở khóa container ngay bây giờ",
+				"trans": "Bạn không thể mở khóa Container bây giờ",
 				"eng": "You cannot unlock containers right now"
 			},
 			"openRedEnvelop": {
@@ -940,7 +940,7 @@
 				"vars": [
 					"itemName"
 				],
-				"trans": "Bạn không thể mở ${itemName} ngay bây giờ",
+				"trans": "Bạn không thể mở ${itemName} bây giờ",
 				"eng": "You cannot open ${itemName} right now"
 			}
 		},
@@ -951,18 +951,18 @@
 			},
 			"itemUpgradeButton": {
 				"title": {
-					"trans": "nâng cấp",
+					"trans": "Nâng cấp",
 					"eng": "upgrade"
 				}
 			},
 			"factoryReset": {
 				"confirmation": {
 					"title": {
-						"trans": "Bạn có chắc là bạn muốn thiết lập lại cài đặt gốc?",
+						"trans": "Bạn có chắc muốn về lại cài đặt gốc?",
 						"eng": "Are you sure you want to factory reset?"
 					},
 					"description": {
-						"trans": "Bằng cách đặt lại mặt hàng này, bạn sẽ mất tất cả hiệu chuẩn, tuy nhiên bạn sẽ có thể giao dịch nó với những người chơi khác.",
+						"trans": "Bằng cách đặt lại vật phẩm này, bạn sẽ mất tất cả điều chỉnh trước đó, tuy nhiên bạn sẽ có thể giao dịch nó với những người chơi khác.",
 						"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
 					}
 				},
